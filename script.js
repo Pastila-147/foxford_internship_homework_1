@@ -1,8 +1,6 @@
 function ChangePicture() {
     var i = getRandomIntInclusive(0, 32);
-
     var imageUrl = `https://chubarich.fvs.app/${i}.png`;
-
     document.getElementById('photo').src = imageUrl;
 }
 
